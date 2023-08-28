@@ -11,7 +11,7 @@ function formSubmit(event) {
     console.log(scoreDOM.value);
     localStorage.setItem("userName", userNameDOM.value);
     localStorage.setItem("score", scoreDOM.value);
-    if (userNameDOM.value, scoreDOM.value) {
+    if (userNameDOM.value && scoreDOM.value) {
 
         addItem(userNameDOM.value, scoreDOM.value);
         userNameDOM.value="";
