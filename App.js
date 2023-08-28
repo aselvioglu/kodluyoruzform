@@ -14,6 +14,9 @@ function formSubmit(event) {
     if (userNameDOM.value, scoreDOM.value) {
 
         addItem(userNameDOM.value, scoreDOM.value);
+        userNameDOM.value="";
+        scoreDOM.value="";
+
     }
     else {
 
